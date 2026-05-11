@@ -1,0 +1,42 @@
+Question
+当前选择的编程语言是 Java。注意要提交完全正确的代码，而不是部分正确但有效的代码。提交后，便无法再检查该题。可以使用 System.out.println() 调试代码。出现语法/运行时错误时，System.out.println() 可能不起作用。使用的 JDK 版本是 Java 8
+
+An agent sends a secret message to headquarters containing the details of his project. He sends one soft copy to the agency's computer (P) and sends one hard copy by fax to Roger, the technical head of the agency (Q). But during the transmission, noise in the network causes some bits of the data message P to get distorted. However, we know that Roger always matches the binary values of both messages and checks whether he can convert the message P to message Q by flipping the minimum number of bits.
+
+Write an algorithm to help Roger find the minimum number of bits that must be flipped to convert message P to message Q.
+
+Input
+The first line of the input consists of an integer num1, representing the secret message sent to the agency's computer (P).
+The second line consists of an integer num2, representing the message sent to the technical head of the agency (Q).
+
+Output
+Print an integer representing the minimum number of bits that must be flipped to convert message P to message Q.
+
+Constraints
+-10⁴ ≤ num1, num2 ≤ 10⁹
+
+Example
+Input:
+7
+10
+
+Output:
+3
+
+Explanation:
+Binary representation of P is 00000111.
+Binary representation of Q is 00001010.
+Three bits of P at position 5, 6 and 8 must be flipped.
+So the number of bits that must be flipped is 3.
+
+ Test Cases
+
+Case 1
+Input: 5 6
+Output: Output of the compiled code will be displayed here. Printing unwanted or ill-formatted data to output will cause the test cases to fail.
+Expected Output: 2
+
+Case 2
+Input: 8 82
+Output: Output of the compiled code will be displayed here. Printing unwanted or ill-formatted data to output will cause the test cases to fail.
+Expected Output: 4
