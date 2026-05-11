@@ -1,0 +1,36 @@
+好的，这是从图片中提取的纯文本内容：
+
+Question
+
+The current selected programming language is Python3.12. We emphasize the submission of a fully working code over partially correct but efficient code. Once submitted, you cannot review this problem again. You can use print to debug your code. The print may not work in case of syntax/runtime error. The version of Python3.12 being used is 3.12.
+
+Peter has two strings of the same length. The first string is fixed and the second string is rotatable. In the left rotation, the first character is removed and added to the end of the string. In the right rotation, the last character is removed and added to the start of the string. Peter is interested in knowing the longest common prefix of both the strings.
+
+Write an algorithm to help Peter find the minimum number of rotations required to find the longest common prefix. If no prefix is common then output -1.
+
+Input
+The first line of the input consists of a string firstString, representing the first string.
+The second line consists of a string secondString, representing the second string.
+
+Output
+Print an integer representing the minimum number of rotations required to find the longest common prefix. If no prefix is common then print -1.
+
+Constraint
+0 < len; where len is the length of both the strings
+
+Note
+The input strings are alphanumeric.
+The input strings consists of lowercase and uppercase alphabets (i.e. a-z and A-Z) and digits (i.e. 0-9).
+The string comparisons are case sensitive i.e abcd and ABCD are not considered same.
+
+Example
+Input:
+a2abccc
+bddda2a
+
+Output:
+3
+
+Explanation:
+The longest common prefix is a2ab.
+The minimum number of rotations required to get the longest common prefix is 3 (right rotations).
